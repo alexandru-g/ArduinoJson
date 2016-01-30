@@ -10,7 +10,9 @@
 #ifndef ARDUINO
 
 #include <string>
-typedef std::string String;
+namespace ArduinoJson {
+	typedef std::string String;
+}
 
 #else
 
